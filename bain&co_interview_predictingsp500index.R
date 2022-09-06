@@ -132,3 +132,4 @@ sqrt(mean((test$V501-test$pred)^2)) # 0.76 - comparable values of RMSE suggest l
 # since its an index, there should be a positive relationship between the index and its components (i.e. the dependent and independent variables) 
 # however, it is possible there are industries within the index that have negative correlation resulting in negative coefficients
 
+# need to explore regularization and cross-validation to simplify model further and retain only the most important variables
